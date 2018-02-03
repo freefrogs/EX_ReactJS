@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Calibri, sans-serif;
+	background: #001818;
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	margin: 0 auto;
+	padding: 5px;
+	width: 70%;
+	background: #FFF;
+}
+
+.contactForm, .contactsList {
+	width: 80%;
+	margin: 20px auto;
+	padding: 10px;
+	box-shadow: 2px 2px 5px #000;
+}
+
+/* FORM */
+.contactForm input, button {
+	padding: 7px 15px;
+	margin: 10px;
+}
+
+.contactForm [type='email'] {
+	display: block;
+	width: 50%;
+	margin: 7px auto;
+}
+
+.contactForm input::placeholder {
+	color: #001818;	
+}
+
+button {
+	background: #001818;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+	padding: 12px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #4F8D8D;
+}
+
+.contactForm {
+	background: #A2CECE;
+	text-align: center;
+}
+
+/* CONTACT */
+.contactsList {
+	background: #073F3F;
+}
+
+.contactItem {
+	width: 80%;
+	margin: 15px auto;
+	background: #A2CECE;
+	padding: 10px;
+}
+
+.contactItem .contactImage {
+	width: 20%;
+	margin-right: 20px;
+}
+
+.contactItem .persData {
+	display: inline-block;
+	color: #073F3F;
+	padding: 10px;
+	position: relative;
+	top: -30px;
+}
+
+.persData .contactLabel {
+	font-weight: bold;
+	margin: 0;
+}
+
+.persData .contactEmail {
+	color: #073F3F;
+}
+
+.persData .contactEmail:hover {
+	color: #000;
+}
